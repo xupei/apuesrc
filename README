@@ -1,5 +1,9 @@
 从官网（http://www.apuebook.com/code3e.html）下载的源码
 
+若执行make编译错误，提示：can't find -lbsd，则需要添加libbsd.a的静态链接库：
+sudo apt-get install libbsd-dev
+
+
 以下内容为原README
 ----------------------------------------------------------------------------------
 
